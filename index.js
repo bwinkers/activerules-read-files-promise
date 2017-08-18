@@ -1,10 +1,10 @@
 /*!
- * read-files-promise | MIT (c) Shinnosuke Watanabe
- * https://github.com/shinnn/read-files-promise
+ * ACTIVERULES-read-files-promise | MIT (c) Brian Winkers
+ * https://github.com/bwinkers/activerules-read-files-promise
 */
 'use strict';
 
-var readMultipleFiles = require('read-multiple-files');
+var readMultipleFiles = require('activerules-read-files');
 var wrapPromise = require('wrap-promise');
 
 module.exports = function readFilesPromise(filePaths, options) {
