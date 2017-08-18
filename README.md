@@ -1,4 +1,4 @@
-# read-files-promise
+# activerules-read-files-promise
 
 ```javascript
 const readFiles = require('read-files-promise');
