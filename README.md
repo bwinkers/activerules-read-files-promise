@@ -1,14 +1,5 @@
 # read-files-promise
 
-[![NPM version](https://img.shields.io/npm/v/read-files-promise.svg)](https://www.npmjs.com/package/read-files-promise)
-[![Build Status](https://travis-ci.org/shinnn/read-files-promise.svg?branch=master)](https://travis-ci.org/shinnn/read-files-promise)
-[![Build status](https://ci.appveyor.com/api/projects/status/2ejpbpkek67wdosf?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/read-files-promise)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/read-files-promise.svg)](https://coveralls.io/r/shinnn/read-files-promise)
-[![Dependency Status](https://img.shields.io/david/shinnn/read-files-promise.svg?label=deps)](https://david-dm.org/shinnn/read-files-promise)
-[![devDependency Status](https://img.shields.io/david/dev/shinnn/read-files-promise.svg?label=devDeps)](https://david-dm.org/shinnn/read-files-promise#info=devDependencies)
-
-[Promise][promise] to read multiple files
-
 ```javascript
 const readFiles = require('read-files-promise');
 
@@ -20,8 +11,6 @@ readFiles([
   buffers; //=> ['apple', 'orange']
 });
 ```
-
-If you want to read a single file in the way of promise, use [fs-readfile-promise](https://github.com/shinnn/fs-readfile-promise).
 
 ## Installation
 
@@ -47,7 +36,7 @@ It reads the files specified in its first argument.
 
 When it finish reading all the files, it will be [*fulfilled*](https://promisesaplus.com/#point-26) with an array of the contents as its first argument. The order of the contents depends on the order of file paths.
 
-When it fails to read at least one of the files, it will be [*rejected*](https://promisesaplus.com/#point-30) with an error as its first argument.
+It won't reject unless it fails horribly. Finding zero files can be a success.
 
 ```javascript
 const readFiles = require('read-files-promise');
@@ -69,7 +58,7 @@ function onRejected(err) {
 
 ## License
 
-Copyright (c) 2014 - 2015 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) 2017 [Brian Winkers](https://github.com/bwinkers)
 
 Licensed under [the MIT License](./LICENSE).
 
