@@ -1,9 +1,9 @@
 {
-  "name": "read-files-promise",
-  "version": "1.1.1",
-  "description": "Promise to read multiple files",
-  "repository": "shinnn/read-files-promise",
-  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "name": "activerules-read-files-promise",
+  "version": "0.1.0",
+  "description": "Promise to read multiple files without eturning errors",
+  "repository": "bwinkers/activerules-read-files-promise",
+  "author": "Brian Winkers (https://github.com/bwinkers)",
   "scripts": {
     "pretest": "eslint --config node_modules/@shinnn/eslintrc-node/rc.json index.js test.js",
     "test": "node test.js | tap-spec",
@@ -15,18 +15,12 @@
     "index.js"
   ],
   "keywords": [
-    "fs",
-    "read",
-    "file",
     "files",
-    "multiple",
-    "promise",
-    "promises",
-    "then",
-    "thenable"
+    "activerules",
+    "promise"
   ],
   "dependencies": {
-    "read-multiple-files": "^1.1.1",
+    "activerules-read-files": "^0.1.0",
     "wrap-promise": "^1.0.1"
   },
   "devDependencies": {
