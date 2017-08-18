@@ -3,10 +3,10 @@
 var test = require('tape');
 var readFiles = require('./');
 
-test('readFilesPromise()', function(t) {
+test('activerulesReadFilesPromise()', function(t) {
   t.plan(8);
 
-  t.equal(readFiles.name, 'readFilesPromise', 'should have a function name.');
+  t.equal(readFiles.name, 'activerulesReadFilesPromise', 'should have a function name.');
 
   readFiles(['.gitignore', '.gitattributes']).then(function(bufs) {
     t.deepEqual(
