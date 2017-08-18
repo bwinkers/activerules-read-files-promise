@@ -17,7 +17,7 @@ readFiles([
 [Use npm.](https://docs.npmjs.com/cli/install)
 
 ```
-npm install read-files-promise
+npm install activerules-read-files-promise
 ```
 
 ## API
