@@ -4,12 +4,12 @@
 */
 'use strict';
 
-var readMultipleFiles = require('activerules-read-files');
+var multipleFiles = require('activerules-read-files');
 var wrapPromise = require('wrap-promise');
 
-module.exports = function readFilesPromise(filePaths, options) {
+module.exports = function activerulesReadFilesPromise(filePaths, options) {
   return wrapPromise(function(resolve, reject) {
-    readMultipleFiles(filePaths, options, function(err, bufs) {
+    multipleFiles(filePaths, options, function(err, bufs) {
       if (err) {
         reject(err);
         return;
