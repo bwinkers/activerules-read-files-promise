@@ -63,3 +63,7 @@ Copyright (c) 2017 [Brian Winkers](https://github.com/bwinkers)
 Licensed under [the MIT License](./LICENSE).
 
 [promise]: https://promisesaplus.com/
+
+## Error on missing files
+
+If you want a version that throws errors on missing files check out the project [we forked](https://github.com/shinnn/read-files-promise).
