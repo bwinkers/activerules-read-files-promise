@@ -4,7 +4,7 @@ var test = require('tape');
 var readFiles = require('./');
 
 test('activerulesReadFilesPromise()', function(t) {
-  t.plan(8);
+  t.plan(7);
 
   t.equal(readFiles.name, 'activerulesReadFilesPromise', 'should have a function name.');
 
