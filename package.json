@@ -1,6 +1,6 @@
 {
   "name": "activerules-read-files-promise",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Promise to read multiple files without eturning errors",
   "repository": "bwinkers/activerules-read-files-promise",
   "author": "Brian Winkers (https://github.com/bwinkers)",
