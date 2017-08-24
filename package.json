@@ -20,7 +20,7 @@
     "promise"
   ],
   "dependencies": {
-    "activerules-read-files": "^0.1.0",
+    "activerules-read-files": "^1.0.0",
     "wrap-promise": "^1.0.1"
   },
   "devDependencies": {
