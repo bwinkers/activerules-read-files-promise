@@ -5,8 +5,7 @@ branches:
   except: /^v\d/
 language: node_js
 node_js:
-  - iojs
-  - node
+  - 7
 after_script: npm run-script coveralls
 notifications:
   email: false
