@@ -1,5 +1,12 @@
 # activerules-read-files-promise
 
+[![NPM version](https://img.shields.io/npm/v/activerules-read-files-promise.svg)](https://www.npmjs.com/package/activerules-read-files-promise)
+[![Build Status](https://travis-ci.org/bwinkers/activerules-read-files-promise.svg?branch=master)](https://travis-ci.org/bwinkers/activerules-read-files-promise)
+[![Code Climate](https://codeclimate.com/github/bwinkers/activerules-read-files-promise/badges/gpa.svg)](https://codeclimate.com/github/bwinkers/activerules-read-files-promise)
+[![Coverage Status](https://img.shields.io/coveralls/bwinkers/activerules-read-files-promise.svg)](https://coveralls.io/github/bwinkers/activerules-read-files-promise)
+[![Dependency Status](https://img.shields.io/david/bwinkers/activerules-read-files-promise.svg?label=deps)](https://david-dm.org/bwinkers/activerules-read-files-promise)
+[![devDependency Status](https://img.shields.io/david/dev/bwinkers/activerules-read-files-promise.svg?label=devDeps)](https://david-dm.org/bwinkers/activerules-read-files-promise#info=devDependencies)
+
 ```javascript
 const readFiles = require('read-files-promise');
 
