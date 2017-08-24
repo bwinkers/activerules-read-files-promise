@@ -25,8 +25,8 @@
   },
   "devDependencies": {
     "@shinnn/eslintrc-node": "^1.0.2",
-    "eslint": "^0.24.0",
-    "istanbul": "^0.3.17",
+    "eslint": "^4.0.0",
+    "istanbul": "^0.4.0",
     "istanbul-coveralls": "^1.0.3",
     "tap-spec": "^4.0.2",
     "tape": "^4.0.0"
