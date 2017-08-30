@@ -74,3 +74,5 @@ Licensed under [the MIT License](./LICENSE).
 ## Error on missing files
 
 If you want a version that throws errors on missing files check out the project [we forked](https://github.com/shinnn/read-files-promise).
+
+Check back soon...
