@@ -6,6 +6,7 @@
 [![Coverage Status](https://img.shields.io/coveralls/bwinkers/activerules-read-files-promise.svg)](https://coveralls.io/github/bwinkers/activerules-read-files-promise)
 [![Dependency Status](https://img.shields.io/david/bwinkers/activerules-read-files-promise.svg?label=deps)](https://david-dm.org/bwinkers/activerules-read-files-promise)
 [![devDependency Status](https://img.shields.io/david/dev/bwinkers/activerules-read-files-promise.svg?label=devDeps)](https://david-dm.org/bwinkers/activerules-read-files-promise#info=devDependencies)
+[![Known Vulnerabilities](https://snyk.io/test/github/bwinkers/activerules-read-files-promise/badge.svg)](https://snyk.io/test/github/bwinkers/activerules-read-files-promise)
 
 ```javascript
 const readFiles = require('read-files-promise');
