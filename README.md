@@ -76,4 +76,4 @@ Licensed under [the MIT License](./LICENSE).
 
 If you want a version that throws errors on missing files check out the project [we forked](https://github.com/shinnn/read-files-promise).
 
-Check back soon...
+Checkout [ActiveRules Phalcon](https://github.com/bwinkers/docker-php7-phalcon)
